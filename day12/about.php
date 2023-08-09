@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> about page</title>
+        <link rel="stylesheet"href="stylesheet.css">
+        <link rel="stylesheet"href="Bootstrap/css/bootstrap.min.css">
+    </head>
+  <body> 
+     <?php
+        welcome to my first class
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+              <a class="navbar-brand" href="#">My Website</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="home.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="hobbies.html">Hobbies</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="profile.html">Profile</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4"></div>
+                 <div class="col"style="border: 2px solid red;"> 
+                    <p>This is column one</p>
+                    </div>
+                    <div class="col"style="border: 2px solid  yellow;">
+                        <p>This is column two</p>
+                        <p>This is column two</p>
+                        <p>This is column two</p><p>This is column two</p><p>This is column two</p>
+
+                    </div>
+                        <div class="col"style="border: 2px solid  green;">
+                         <p>This is column three</p>
+                         </div>
+
+                 </div>
+            </div>
+            <a href="about.html"> about</a>
+            <a href="welcome.html"> welcome</a>
+        </div>
+       ?>
+    </body>
+          <p>this is about page</p>
+
+</html>
